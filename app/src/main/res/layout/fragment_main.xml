@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hazem.task.Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/toolbarlayout"/>
+
+    <TextView
+        android:id="@+id/txtone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
